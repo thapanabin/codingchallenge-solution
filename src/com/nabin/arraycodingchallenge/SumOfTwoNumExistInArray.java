@@ -6,7 +6,7 @@ import java.util.Map;
 public class SumOfTwoNumExistInArray {
     public static void main(String[] args) {
         int[] numbers = {2, 3, 7, 4, 8};
-        int target = 20;
+        int target = 10;
         int[] result = getTwoSum(numbers,target);
         System.out.println(result[0]+" "+result[1]);
 
